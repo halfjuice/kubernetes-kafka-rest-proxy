@@ -1,6 +1,6 @@
 # kubernetes-kafka-rest-proxy
 
-Forking and upgraded from https://gitlab.com/atkozhuharov/kafka-rest-proxy-kubernetes
+Forked and upgraded from https://gitlab.com/atkozhuharov/kafka-rest-proxy-kubernetes
 
 # Usage
 1. Setup you Kafka cluster with server endpoint (Username, Password, SASL method if any)
