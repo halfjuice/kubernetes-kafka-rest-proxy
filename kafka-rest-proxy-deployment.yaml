@@ -36,7 +36,7 @@ spec:
           image: confluentinc/cp-kafka-rest:5.1.3
           imagePullPolicy: Always
           command: ["/bin/bash", "-c"]
-          args: ["kafka-rest-start /etc/kafka-rest-cloud/kafka-rest.properties"]
+          args: ["kafka-rest-start /etc/kafka-rest-cloud/kafka-rest-config.properties"]
           ports:
             - containerPort: 8082
           readinessProbe:
